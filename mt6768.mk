@@ -235,12 +235,12 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-superior
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-superior
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayMT6768 \
@@ -281,7 +281,7 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
 # Properties
-include $(LOCAL_PATH)/vendor_logtag.mk
+include $(LOCAL_PATH)/configs/props/vendor_logtag.mk
 
 # Permissions
 PRODUCT_COPY_FILES += \
