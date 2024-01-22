@@ -143,7 +143,11 @@ PRODUCT_COPY_FILES += \
 
 # FM Radio
 PRODUCT_PACKAGES += \
-    MtkFMRadio
+    FMRadio
+
+# BesLoudness
+PRODUCT_PACKAGES += \
+    BesLoudness
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
